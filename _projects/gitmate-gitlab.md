@@ -11,9 +11,6 @@ mentors:
   - seblat
   - fneu
 name: "Implement GitLab and Bitbucket Support for GitMate"
-requirements:
-  - "The participant should have one patch to [GitMate-2](https://gitlab.com/gitmate/gitmate-2) accepted."
-  - "Django knowledge  is a big plus."
 tags:
   - Web
   - CI

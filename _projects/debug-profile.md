@@ -8,11 +8,6 @@ mentors:
   - arjunsinghy96
   - Makman2
 name: "Debug and Profile Bears"
-requirements:
-  - "At least one patch to the coala core should be accepted and merged."
-  - "The student should be familiar with ongoing technical [cEPs](https://coala.io/cep)."
-  - "The proposal needs to contain a clear concept."
-  - "Familiarity with pdb is a plus."
 tags:
   - Core
   - Bears

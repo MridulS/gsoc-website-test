@@ -32,12 +32,6 @@ therefore adding an ignore comment -->
     <div class="modal-content">
       <div class="col m4 profile">
         <div class="name"> {{ currentProject.name }} </div>
-        <div ng-show="currentProject.requirements.length>0">
-          <div class="small-heading uppercase">Requirements</div>
-          <ul class="req-ul">
-            <li btf-markdown="req" class="milestones" ng-repeat="req in currentProject.requirements"></li>
-          </ul>
-          <br> </div>
         <div ng-show="currentProject.collaborating_projects.length>0">
           <div class="small-heading uppercase">Collaborating projects</div> <span class="pr-element-detail chip" ng-repeat="project in currentProject.collaborating_projects">{{ project }}</span>
           <br> </div>

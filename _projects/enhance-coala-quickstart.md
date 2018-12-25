@@ -7,9 +7,6 @@ mentors:
   - adtac
   - Adrianzatreanu
 name: "Enhance coala-quickstart"
-requirements:
-  - "At least one patch to coala core and coala-quickstart each should be accepted and merged."
-  - "The student should be familiar with ongoing technical [cEPs](https://coala.io/cep)."
 tags:
   - "Information Extraction"
   - CLI
