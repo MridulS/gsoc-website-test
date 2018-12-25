@@ -47,10 +47,6 @@
       </div>
       <div ng-view=""></div>
     </div>
-    <div ng-controller="LanguageController as langCtrl" style="position: relative; margin: auto; width: 100px;">
-    <select ng-init="language = init_language" ng-options="l as l.name for l in langs" ng-model="language" ng-change="update()">
-    </select>
-  </div>
   </main>
   <footer class="page-footer footer-light transparent">
     <div class="row center for-mobile"> <a class="github-button" href="{{ site.githuburl }}" data-size="large">Fork</a> </div>
