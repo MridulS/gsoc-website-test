@@ -470,3 +470,7 @@ cscope.po.out
 
 # Pytest profile files
 prof/
+
+# bundler
+.bundle
+vendor
