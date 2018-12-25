@@ -3,10 +3,6 @@ collaborating_projects:
   - coala
 desc: "This project is about collecting bears based on aspects that the user wants to have checked."
 markdown: implement-aspects.md
-mentors:
-  - userzimmermann
-  - jayvdb
-  - myint
 name: "Implement Aspects Support"
 tags:
   - Core

@@ -37,12 +37,6 @@ therefore adding an ignore comment -->
           <br> </div>
         <div ng-show="currentProject.tags.length>0">
           <div class="small-heading uppercase">Tags</div> <span class="pr-element-detail chip" ng-repeat="tags in currentProject.tags">{{ tags }}</span> </div>
-        <div ng-show="currentProject.mentors.length>0" class="project-detail-element">
-          <div class="small-heading uppercase">Mentors</div> <span class="pr-element-detail chip" ng-repeat="mentor in currentProject.mentors">@{{mentor}}</span> </div>
-          <br>
-          <br>
-          <br>
-          <br> </div>
       </div>
       <div class="col m8 dashboard">
         <div btf-markdown="currentProject.content" class="description markdown"></div>

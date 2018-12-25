@@ -6,10 +6,6 @@ collaborating_projects:
 desc: "GitMate will support GitHub very soon with it's plugin system - GitLab and Bitbucket are not far away thanks to
        your help!"
 markdown: gitmate_gitlab.md
-mentors:
-  - sils
-  - seblat
-  - fneu
 name: "Implement GitLab and Bitbucket Support for GitMate"
 tags:
   - Web
