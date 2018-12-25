@@ -3,9 +3,9 @@ question: "Do you have an application template?"
 ---
 {% assign month = "now" | date: "%-m" | plus: 0 %}
 {% if month >= site.gsoc_switch_month %}
-# coala {{ "now" | date: "%Y" | plus: 1 }} Application Template
+# NumFOCUS {{ "now" | date: "%Y" | plus: 1 }} Application Template
 {% else %}
-# coala {{ "now" | date: "%Y" }} Application Template
+# NumFOCUS {{ "now" | date: "%Y" }} Application Template
 {% endif %}
 
 ```
@@ -21,38 +21,15 @@ Student Info
 - Which city (or other geographical boundary you feel comfortable sharing)?
 - Time Zone:
 - GSoC blog RSS feed URL: (You will have to write a blog post every
-  week during GSoC.)
-
-
-Code Sample
------------
-
-Link all your contributions to coala and any other open source project here.
-
-For example, to list your contributions to coala you can mention:
-  - https://github.com/coala/coala/commits/master?author=YOUR_USER_NAME
-    for coala repo
-  - https://github.com/coala/coala-bears/commits/master?author=YOUR_USER_NAME
-    for coala-bears repo
-
-- Link all your contributions to upstream repositories here. Such as third-party
-  linters and libraries that coala depends on.
-
-You may also mention specific issues/commits using the commit id if you want
-us to take a look at that.
-
-You will have to finish the coala newcomer guide to be accepted:
-http://coala.io/newcomer
+  evaluation period during GSoC.)
 
 
 Project Info
 ------------
 
-- Which project from http://projects.coala.io are you applying for?
-  If you have your own idea, please add it to our projects list:
-  https://github.com/coala/projects/blob/master/data/projects.liquid
+- Which suborg and project are you applying for?
 
-- How is your project helping coala and its community?
+- How is your project helping NumFOCUS and its community?
 
 - What is the final goal for this project? What would make it a total
   and perfect success?
@@ -63,7 +40,7 @@ Project Info
   be the first listed mentor as primary and another as secondary.
   All projects will have a primary and a secondary mentor.
 
-- What parts of coala do you have to work with in order to complete
+- What parts of code do you have to work with in order to complete
   this project? What else are you planning on using?
 
 - Why are you the right person to work on this project?
@@ -83,7 +60,7 @@ Other Commitments
 -----------------
 
 - Do you have any other commitments during the GSoC period,
-  May 14th to August 14th?
+  May 6th to August 26th?
 
     - We don't penalize students for needing adjustments to schedule if
       they're up-front about them and have a plan to mitigate any issues.
@@ -109,7 +86,7 @@ Other Commitments
 Extra Information
 -----------------
 
-This additional information isn't needed by coala but can help us to learn
+This additional information isn't needed by NumFOCUS but can help us to learn
 more about you. All fields in this section are optional.
 
 - Link to openhub account:
@@ -122,14 +99,6 @@ more about you. All fields in this section are optional.
     - Alternate contact info in case primary mail above stops working:
     - Homepage:
     - Instant messaging:
-
-- Will you be able to join us for a conference such as EuroPython or GUADEC
-  and present your work if at least partial sponsorship will be provided?
-  (See https://github.com/coala/coala/wiki/Conferences-Upcoming)
-
-- We love having twitter handles so we can tell people publicly about your
-  great project and successes at https://twitter.com/coala_io!
-  (Not required but recommended.)
 
 - Anything else you want us to know:
 

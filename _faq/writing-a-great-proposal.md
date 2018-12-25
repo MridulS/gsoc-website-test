@@ -5,7 +5,7 @@ Please design your project in a way that you have **multiple
 checkpoints**. We'd like you to specify at least three milestones with
 specific goals: if something goes wrong for a valid reason, we can rearrange
 your schedule meaningfully. Each of those goals has to be merged into the main
-coala codebase in order for it to be considered"complete". You should be
+organizations codebase in order for it to be considered"complete". You should be
 aware of what that involves for you (writing tests, writing docs, going
 through extensive code review, learning :), reiterating).
 
