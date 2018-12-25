@@ -2,9 +2,6 @@
 collaborating_projects:
   - coala
 desc: "The project is about fixing Issues with Generic Bears and providing better API."
-initiatives:
-  - GSoC
-  - RGSoC
 markdown: generic-bears.md
 mentors:
   - abhsag24

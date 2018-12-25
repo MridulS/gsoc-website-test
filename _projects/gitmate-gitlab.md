@@ -6,9 +6,6 @@ collaborating_projects:
 desc: "GitMate will support GitHub very soon with it's plugin system - GitLab and Bitbucket are not far away thanks to
        your help!"
 status: completed
-initiatives:
-  - GSoC
-  - RGSoC
 markdown: gitmate_gitlab.md
 mentors:
   - sils

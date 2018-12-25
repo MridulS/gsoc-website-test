@@ -3,9 +3,6 @@ collaborating_projects:
   - coala
 desc: "This project is about collecting bears based on aspects that the user wants to have checked."
 status: completed
-initiatives:
-  - GSoC
-  - RGSoC
 markdown: implement-aspects.md
 mentors:
   - userzimmermann
