@@ -1,7 +1,7 @@
 ---
 question: "What are my obligations as a mentor during the GSoC?"
 ---
-coala has two mentors for every project:
+NumFOCUS has two mentors for every project:
 
 1.  **Primary mentor**: responsible for the administrative tasks of the project.
 2.  **Secondary mentor**: has little to no responsibility, but provides backup

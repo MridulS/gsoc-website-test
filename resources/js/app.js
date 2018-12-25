@@ -1,5 +1,5 @@
 (function(){
-    var app = angular.module('coala', ['ngSanitize','btford.markdown', 'ngRoute']);
+    var app = angular.module('numfocus', ['ngSanitize','btford.markdown', 'ngRoute']);
 
     app.factory('Languages', function ($location) {
         langs = [{
