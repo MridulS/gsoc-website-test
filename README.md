@@ -15,4 +15,4 @@ Google Summer of Code 2018 program and previous editions.
 
 ## Organizations Confirmed Under NumFOCUS Umbrella
 
-[Orgs][Organizations.md]
+[Orgs](Organizations.md)
