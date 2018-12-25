@@ -32,9 +32,6 @@ therefore adding an ignore comment -->
     <div class="modal-content">
       <div class="col m4 profile">
         <div class="name"> {{ currentProject.name }} </div>
-        <div ng-show="currentProject.collaborating_projects.length>0">
-          <div class="small-heading uppercase">Collaborating projects</div> <span class="pr-element-detail chip" ng-repeat="project in currentProject.collaborating_projects">{{ project }}</span>
-          <br> </div>
         <div ng-show="currentProject.tags.length>0">
           <div class="small-heading uppercase">Tags</div> <span class="pr-element-detail chip" ng-repeat="tags in currentProject.tags">{{ tags }}</span> </div>
       </div>

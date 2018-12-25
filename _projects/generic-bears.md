@@ -1,6 +1,4 @@
 ---
-collaborating_projects:
-  - coala
 desc: "The project is about fixing Issues with Generic Bears and providing better API."
 markdown: generic-bears.md
 name: "Improve Generic Bear Quality"

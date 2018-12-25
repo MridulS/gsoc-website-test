@@ -1,8 +1,4 @@
 ---
-collaborating_projects:
-  - coala
-  - GitMate
-  - IGitt
 desc: "GitMate will support GitHub very soon with it's plugin system - GitLab and Bitbucket are not far away thanks to
        your help!"
 markdown: gitmate_gitlab.md
