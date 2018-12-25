@@ -1,5 +1,5 @@
-<table>
-        <tr>
+---title: Confirmed Organizations---<table>
+    <tr>
     <td>
       <img width="300px" src=""/>
     </td>
@@ -15,7 +15,7 @@
   </tr>
     
 
-        <tr>
+    <tr>
     <td>
       <img width="300px" src=""/>
     </td>

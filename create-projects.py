@@ -52,6 +52,9 @@ def main():
     html = "\n".join(o.to_html() for o in orgs)
 
     with open("Organizations.md", "w") as fh:
+        fh.write("---")
+        fh.write("title: Confirmed Organizations")
+        fh.write("---")
         fh.write("<table>")
         fh.write(html)
         fh.write("</table>")
