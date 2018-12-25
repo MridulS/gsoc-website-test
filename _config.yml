@@ -17,15 +17,6 @@ markdown: kramdown
 collections:
   projects:
     output: true
-  reports:
-    output: true
   faq:
     output: true
 
-defaults:
-  - scope:
-      path: ''
-      type: reports
-    values:
-      layout: report
-      permalink: GSoC/:year/StatusReport/:title
