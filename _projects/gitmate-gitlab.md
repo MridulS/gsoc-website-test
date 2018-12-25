@@ -5,7 +5,6 @@ collaborating_projects:
   - IGitt
 desc: "GitMate will support GitHub very soon with it's plugin system - GitLab and Bitbucket are not far away thanks to
        your help!"
-developers_involved: []
 status: completed
 initiatives:
   - GSoC
