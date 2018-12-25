@@ -2,8 +2,7 @@
 desc: "Conda Community Package Repository"
 markdown: conda-forge.md
 name: "Conda-Forge"
-ideaslist:
-  - "conda-forge.org/ideas"
+ideaslist: "conda-forge.org/ideas"
 tags:
   - Python
   - Conda
