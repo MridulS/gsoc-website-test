@@ -52,6 +52,9 @@
             when('/mentors', {
                 template: '<mentors></mentors>'
             }).
+            when('/ideaslist', {
+                template: '<ideaslist></ideaslist>'
+            }).
             when('/faq', {
                 template: '<faq></faq>'
             }).
@@ -93,17 +96,6 @@
             templateUrl: '/partials/tabs/projects.html',
             controller: function ($scope, $location, Languages) {
                 self = this
-
-                var mapping = {
-                    '': 0,
-                    'crowded': 1,
-                    'in_progress': 2,
-                    'completed': 3
-                }
-
-                $scope.sortOrder = function(project) {
-                    return mapping[project.status];
-                }
 
                 $scope.getDefaultProjectsMetadata = function () {
                     $http.get('data/projects.liquid')
@@ -376,6 +368,27 @@
             return res.slice(3, last - 1).join('/') + '#' + res[last];
         };
     });
+
+    app.directive('idealist', ['$http', function ($http) {
+        return {
+            restrict: 'E',
+            templateUrl: '/partials/tabs/ideaslist.html',
+            controller: function ($scope, $rootScope) {
+                self = this
+                self.ideasList = {}
+                $http.get('data/projects.liquid')
+                    .then(function (res) {
+                        $scope.projects  = res.data
+                        angular.forEach($scope.projects, function(value, key) {
+                            self.ideasList[value.ideaslist] = {
+                                "url" : value.ideaslist
+                            }
+                        });
+                    })
+            },
+            controllerAs: 'toc2'
+        }
+    }]);
 
     app.directive('mentors', ['$http', function ($http) {
         return {

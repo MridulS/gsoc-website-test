@@ -2,6 +2,8 @@
 desc: "Analyize Molecular Dynamics Simulations"
 markdown: mdanalysis.md
 name: "MDAnalysis"
+ideaslist:
+  - "mdanalysis.org/ideas"
 tags:
   - Python
   - Biology
