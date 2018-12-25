@@ -5,9 +5,6 @@ desc: "coala should support developers of code analysis by providing facilities 
 initiatives:
   - GSoC
   - RGSoC
-issues:
-  - "https://github.com/coala/coala/issues/565"
-  - "https://github.com/coala/coala/issues/1101"
 markdown: debug-profile.md
 mentors:
   - fneu

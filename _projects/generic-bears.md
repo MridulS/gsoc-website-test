@@ -5,7 +5,6 @@ desc: "The project is about fixing Issues with Generic Bears and providing bette
 initiatives:
   - GSoC
   - RGSoC
-issues: []
 markdown: generic-bears.md
 mentors:
   - abhsag24

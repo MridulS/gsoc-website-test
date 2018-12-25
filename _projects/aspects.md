@@ -6,7 +6,6 @@ status: completed
 initiatives:
   - GSoC
   - RGSoC
-issues: []
 markdown: implement-aspects.md
 mentors:
   - userzimmermann

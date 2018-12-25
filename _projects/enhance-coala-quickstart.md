@@ -6,20 +6,6 @@ status: completed
 initiatives:
   - GSoC
   - RGSoC
-issues:
-  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/21"
-  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/56"
-  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/58"
-  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/59"
-  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/150"
-  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/60"
-  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/61"
-  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/62"
-  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/63"
-  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/64"
-  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/65"
-  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/66"
-  - "https://gitlab.com/coala/GSoC/GSoC-2017/issues/67"
 markdown: enhance-coala-quickstart.md
 mentors:
   - adtac
