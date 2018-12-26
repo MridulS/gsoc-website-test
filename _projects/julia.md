@@ -15,4 +15,4 @@ tags:
   - Probabilistic Programming
 ---
 
-Projects for the Julia programming language
+Julia is a fast and user-friendly programming language for high-performance scientific computing.

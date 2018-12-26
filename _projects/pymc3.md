@@ -11,4 +11,4 @@ tags:
   - Probabilistic Programming
 ---
 
-Probabilistic Programming in Python
+PyMC3 is a Python-based statistical modeling tool for Bayesian statistical modeling and Probabilistic Machine Learning which focuses on advanced Markov chain Monte Carlo and variational fitting algorithms.

@@ -13,4 +13,23 @@ tags:
   - Cython
 ---
 
-MDAnalysis is a python project to analyze Molecular Dynamic Simulations (MD).
+MDAnalysis is an object-oriented Python library to analyze trajectories from
+molecular dynamics (MD) simulations in many popular formats. It can write most
+of these formats, too, together with atom selections suitable for visualization
+or native analysis tools.
+
+MDAnalysis allows one to read particle-based trajectories (including individual
+coordinate frames such as biomolecules in the PDB format) and access the atomic
+coordinates through NumPy arrays. This provides a flexible and relatively fast
+framework for complex analysis tasks. In addition, powerful atom selection
+commands are implemented. Trajectories can also be manipulated (for instance,
+fit to a reference structure) and written out. The basic example demonstrates
+some of these features.
+
+Read more:
+
+    installation quick start
+    learning MDAnalysis
+
+Also, check out the blog or subscribe to our news feed to follow development
+updates and events.

@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <!-- projectCtrl is linked with angular controller of the same name
 therefore adding an ignore comment -->
+<div class="main-content container-fluid">
+  <div class="row">
+    <div class="col m8 offset-m2">
+      <!-- <h1 class="fine center">Hello there!</h1> -->
+      <h4 class="light center">
+        NumFocus is participating in GSoC 2019. Below you can find a list of NumFOCUS projects participating in GSoC with us.
+      </h4>
+      <br> </div>
+  </div>
+</div>
 <section id="projectCtrl"> <!-- Ignore HTMLLintBear -->
   <br>
   <div class="main-content container">
@@ -35,6 +45,9 @@ therefore adding an ignore comment -->
         <div class="name"> {{ currentProject.name }} </div>
         <div ng-show="currentProject.tags.length>0">
           <div class="small-heading uppercase">Tags</div> <span class="pr-element-detail chip" ng-repeat="tags in currentProject.tags">{{ tags }}</span>
+        </div>
+        <div ng-show="currentProject.ideaslist" class="project-detail-element">
+          <div class="small-heading uppercase">Ideas List</div> <a ng-href="{{ currentProject.ideaslist}}"> <span class="pr-element-detail chip">{{ currentProject.ideaslist }}</span> </a>
         </div>
         <div ng-show="currentProject.organization_url" class="project-detail-element">
           <div class="small-heading uppercase">Website</div> <a ng-href="{{ currentProject.organization_url}}"> <span class="pr-element-detail chip">{{ currentProject.organization_url }}</span> </a>
