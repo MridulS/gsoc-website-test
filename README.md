@@ -1,5 +1,3 @@
-<p align="center"><img src="screenshots/header.png"></p>
-
 # Projects
 
 A website that showcases sub organizations! 
