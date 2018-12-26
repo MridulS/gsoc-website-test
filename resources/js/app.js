@@ -366,14 +366,13 @@
             controller: function ($scope, $rootScope) {
                 self = this
                 self.ideasList = {}
-                console.log("controller function")
                 $http.get('data/projects.liquid')
                     .then(function (res) {
-                        console.log("aaa")
                         $scope.projects  = res.data
                         angular.forEach($scope.projects, function(value, key) {
                             self.ideasList[value.ideaslist] = {
-                                "url" : value.ideaslist
+                                "url" : value.ideaslist,
+                                "name" : value.name
                             }
                         });
                     })

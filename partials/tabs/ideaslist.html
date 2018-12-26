@@ -4,7 +4,7 @@
     <div class="col m8 offset-m2">
       <h1 class="fine center">Hello there!</h1>
       <h4 class="light center">
-        Here are the project ideas for NumFOCUS 2019
+        This is a list of to the project ideas of our sub-orgs. You can find the same information on the page for each sub org.
       </h4>
       <br> </div>
   </div>
@@ -16,10 +16,7 @@
         <div class="parent">
           <div ng-repeat="il in toc2.ideasList" class="card child card-main sc">
             <a ng-href="{{il.url}}">
-              <div class="empty"></div>
-              <!-- data-proofer-ignore as html-proofer doesn't recognise ng-src -->
-                <div class="name center">{{ il.url }}
-                </div>
+                <div class="name center">{{ il.name }}</div>
             </a>
           </div>
         </div>
