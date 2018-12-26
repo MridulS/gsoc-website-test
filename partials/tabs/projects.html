@@ -19,6 +19,7 @@ therefore adding an ignore comment -->
             <div ng-repeat="project in projectList | filter: searchText " class="card child">
               <div class="card-content waves-effect" ng-click="lc.showProject(project)">
                 <div class="card-title center">{{ project.name }}</div>
+                <div class="data thumbnail center"><img alt="{{project.name}}" class="center dp" height="100" ng-src="{{project.logo_url}}" data-proofer-ignore></div>
                 <div btf-markdown="project.desc" class="markdown"></div>
               </div>
               <div ng-show="project.tags.length>0" class="card-action"> <span ng-repeat="tag in project.tags | limitTo:4"><a>{{tag}}</a></span> </div>
