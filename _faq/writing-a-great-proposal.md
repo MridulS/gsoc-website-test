@@ -1,6 +1,24 @@
 ---
 question: "How do I work out a great proposal?"
 ---
+**This is a general guide. Organizations can have different instructions and you
+must follow their instructions**
+
+Firstly, think about your choice of project carefully, you're going to be doing
+it for a couple of months, so it's important that you choose something you're
+going to enjoy. Once you've made your mind up:
+
+1. Make sure you've thought about the project and understand what it entails.
+2. Contact us early! The earlier you contact us the earlier you will be able to
+   get feedback from us to improve your application.
+3. Don't be afraid to come up with original solutions to the problem.
+4. Don't be afraid to give us lots of detail about how you would approach the
+   project.
+
+Overall, your application should make us believe that you are capable of
+completing the project and delivering the functionality to our users. If you
+aren't sure about anything, get in touch with us, we're happy to advise you.
+
 Please design your project in a way that you have **multiple
 checkpoints**. We'd like you to specify at least three milestones with
 specific goals: if something goes wrong for a valid reason, we can rearrange
@@ -21,8 +39,14 @@ lot of helpful feedback from us!
 
 #### Writing the proposal
 
-Please follow the **application template** in the faq. All fields are required if not explicitly indicated otherwise. While following the application template you can consider doing an illustration of your proposed solution as it makes the application much more intuitive.
+Please follow the **application template** in the faq. All fields are required
+if not explicitly indicated otherwise. While following the application template
+you can consider doing an illustration of your proposed solution as it makes the
+application much more intuitive.
 
-For writing your proposal we recommend using [Google Docs](https://www.google.com/docs/about/) as this will be supported by the Google submission system.
+For writing your proposal we recommend using [Google
+Docs](https://www.google.com/docs/about/) as this will be supported by the
+Google submission system.
 
-If needed, you can get further information about GSoC [here](http://write.flossmanuals.net/gsocstudentguide/what-is-google-summer-of-code/).
+If needed, you can get further information about GSoC
+[here](http://write.flossmanuals.net/gsocstudentguide/what-is-google-summer-of-code/).
