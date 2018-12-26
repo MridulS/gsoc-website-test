@@ -74,7 +74,7 @@
             $scope.$evalAsync();
             return $scope.init_language;
         }
-    })
+    });
 
     app.controller('TabController', function ($location) {
         this.tab = $location.path()
@@ -85,7 +85,7 @@
         this.isSet = function (stab) {
             return $location.path() == stab
         }
-    })
+    });
 
     app.directive('projects',  ['$http',  '$timeout', '$location', 'Languages', function ($http, $timeout, $location, Languages) {
         return {
@@ -359,15 +359,17 @@
         };
     });
 
-    app.directive('idealist', ['$http', function ($http) {
+    app.directive('ideaslist', ['$http', function ($http) {
         return {
             restrict: 'E',
             templateUrl: '/partials/tabs/ideaslist.html',
             controller: function ($scope, $rootScope) {
                 self = this
                 self.ideasList = {}
+                console.log("controller function")
                 $http.get('data/projects.liquid')
                     .then(function (res) {
+                        console.log("aaa")
                         $scope.projects  = res.data
                         angular.forEach($scope.projects, function(value, key) {
                             self.ideasList[value.ideaslist] = {
