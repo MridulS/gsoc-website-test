@@ -9,6 +9,12 @@
 "logo_url" : "{{ post.logo_url }}",
 "ideaslist" :  "{{ post.ideaslist }}",
 "content_url" : "{{ post.url }}",
+"organization_url" : "{{ post.organization_url }}",
+"contributing" : "{{ post.contributing }}",
+"gitter" : "{{ post.gitter }}",
+"slack" : "{{ post.slack }}",
+"email" : "{{ post.email }}",
+"discourse" : "{{ post.discourse }}",
 "path" : "{{ post.path }}",
 "markdown" : "{{ post.path | replace: '_projects/','' }}"
 }{% unless forloop.last %},{% endunless %}{% endfor %}
