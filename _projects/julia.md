@@ -8,6 +8,7 @@ discourse: https://discourse.julialang.org/
 slack: https://julialang.slack.com
 contributing: https://github.com/JuliaLang/julia/blob/master/CONTRIBUTING.md
 organization_url: https://julialang.org/
+status: "sponsored"
 tags:
   - julia
   - Bayes

@@ -36,6 +36,15 @@ therefore adding an ignore comment -->
                 <div btf-markdown="project.desc" class="markdown"></div>
               </div>
               <div ng-show="project.tags.length>0" class="card-action"> <span ng-repeat="tag in project.tags | limitTo:4"><a>{{tag}}</a></span> </div>
+
+              <div ng-show="project.status.indexOf('affiliated') != -1" class="orange white-text card-action center">
+                <span class="status-title">AFFILIATED</span>
+                <br>
+              </div>
+              <div ng-show="project.status.indexOf('sponsored') != -1" class="green white-text card-action center">
+                <span class="status-title">SPONSORED</span>
+                <br>
+              </div>
             </div>
           </div>
         </div>

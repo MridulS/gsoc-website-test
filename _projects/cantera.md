@@ -6,6 +6,7 @@ ideaslist: "https://cantera.org/ideas"
 logo_url: "https://i0.wp.com/numfocus.org/wp-content/uploads/2018/02/cantera-logo-300x300.png"
 contributing: https://github.com/Cantera/cantera/blob/master/CONTRIBUTING.md
 organization_url: https://cantera.org/
+status: "sponsored"
 tags:
   - python
   - matlab

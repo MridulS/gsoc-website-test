@@ -15,6 +15,7 @@
 "slack" : "{{ post.slack }}",
 "email" : "{{ post.email }}",
 "discourse" : "{{ post.discourse }}",
+"status" : "{{ post.status }}",
 "path" : "{{ post.path }}",
 "markdown" : "{{ post.path | replace: '_projects/','' }}"
 }{% unless forloop.last %},{% endunless %}{% endfor %}

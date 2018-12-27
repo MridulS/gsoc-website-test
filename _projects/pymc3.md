@@ -4,6 +4,7 @@ markdown: pymc3.md
 name: "PyMC3"
 ideaslist: "https://pymc3.org/ideas"
 logo_url: "https://raw.githubusercontent.com/numfocus/gsoc/master/img/pymc3-logo.png"
+status: "sponsored"
 tags:
   - Python
   - Bayes
