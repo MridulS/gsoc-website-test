@@ -5,6 +5,7 @@ name: "MDAnalysis"
 ideaslist: "https://www.mdanalysis.org/ideas"
 logo_url: "https://www.mdanalysis.org/public/mdanalysis-logo_square.png"
 organization_url: "https://mdanalysis.org"
+email: "https://groups.google.com/forum/#!forum/mdnalysis-devel"
 tags:
   - Python
   - Biology

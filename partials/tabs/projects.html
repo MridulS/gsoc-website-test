@@ -49,26 +49,18 @@ therefore adding an ignore comment -->
         <div ng-show="currentProject.tags.length>0">
           <div class="small-heading uppercase">Tags</div> <span class="pr-element-detail chip" ng-repeat="tags in currentProject.tags">{{ tags }}</span>
         </div>
-        <div ng-show="currentProject.ideaslist" class="project-detail-element">
-          <div class="small-heading uppercase">Ideas List</div> <a ng-href="{{ currentProject.ideaslist}}"> <span class="pr-element-detail chip">{{ currentProject.ideaslist }}</span> </a>
+        <div class="project-detail-elment">
+          <div class="small-heading uppercase">Information</div>
+          <a ng-show="currentProject.organization_url" ng-href="{{ currentProject.organization_url }}"> <span class="pr-element-detail chip"> Homepage </span> </a>
+          <a ng-show="currentProject.contributing" ng-href="{{ currentProject.contributing }}"> <span class="pr-element-detail chip"> Contributing </span> </a>
+          <a ng-show="currentProject.ideaslist" ng-href="{{ currentProject.ideaslist }}"> <span class="pr-element-detail chip"> Ideas List </span> </a>
         </div>
-        <div ng-show="currentProject.organization_url" class="project-detail-element">
-          <div class="small-heading uppercase">Website</div> <a ng-href="{{ currentProject.organization_url}}"> <span class="pr-element-detail chip">{{ currentProject.organization_url }}</span> </a>
-        </div>
-        <div ng-show="currentProject.contributing" class="project-detail-element">
-          <div class="small-heading uppercase">Contributing</div> <a ng-href="{{ currentProject.contributing}}"> <span class="pr-element-detail chip">{{ currentProject.contributing }}</span> </a>
-        </div>
-        <div ng-show="currentProject.gitter" class="project-detail-element">
-          <div class="small-heading uppercase">Gitter</div> <a ng-href="{{ currentProject.gitter}}"> <span class="pr-element-detail chip">{{ currentProject.gitter }}</span> </a>
-        </div>
-        <div ng-show="currentProject.slack" class="project-detail-element">
-          <div class="small-heading uppercase">Slack</div> <a ng-href="{{ currentProject.slack}}"> <span class="pr-element-detail chip">{{ currentProject.slack }}</span> </a>
-        </div>
-        <div ng-show="currentProject.email" class="project-detail-element">
-          <div class="small-heading uppercase">Email</div> <a ng-href="{{ currentProject.email}}"> <span class="pr-element-detail chip">{{ currentProject.email }}</span> </a>
-        </div>
-        <div ng-show="currentProject.discourse" class="project-detail-element">
-          <div class="small-heading uppercase">Discourse</div> <a ng-href="{{ currentProject.discourse}}"> <span class="pr-element-detail chip">{{ currentProject.discourse }}</span> </a>
+        <div class="project-detail-elment">
+          <div class="small-heading uppercase">Contact</div>
+          <a ng-show="currentProject.gitter" ng-href="{{ currentProject.gitter }}"> <span class="pr-element-detail chip"> Gitter </span> </a>
+          <a ng-show="currentProject.slack" ng-href="{{ currentProject.slack }}"> <span class="pr-element-detail chip"> Slack </span> </a>
+          <a ng-show="currentProject.discourse" ng-href="{{ currentProject.discourse }}"> <span class="pr-element-detail chip"> Discourse </span> </a>
+          <a ng-show="currentProject.email" ng-href="{{ currentProject.email }}"> <span class="pr-element-detail chip"> Email </span> </a>
         </div>
       </div>
       <div class="col m8 dashboard">
