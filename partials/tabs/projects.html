@@ -1,19 +1,6 @@
 <!DOCTYPE html>
 <!-- projectCtrl is linked with angular controller of the same name
 therefore adding an ignore comment -->
-<div class="main-content container-fluid">
-  <div class="row">
-    <div class="col m8 offset-m2">
-      <!-- <h1 class="fine center">Hello there!</h1> -->
-      <h4 class="light center">
-        NumFocus is participating in GSoC 2019 as a umbrella organization. Below
-        you can find a list of NumFOCUS projects participating in GSoC with us.
-        NumFOCUS, an umbrella organization, supports and promotes world-class,
-        innovative, open source scientific software.
-      </h4>
-      <br> </div>
-  </div>
-</div>
 <section id="projectCtrl"> <!-- Ignore HTMLLintBear -->
   <br>
   <div class="main-content container">
@@ -37,11 +24,11 @@ therefore adding an ignore comment -->
               </div>
               <div ng-show="project.tags.length>0" class="card-action"> <span ng-repeat="tag in project.tags | limitTo:4"><a>{{tag}}</a></span> </div>
 
-              <div ng-show="project.status.indexOf('affiliated') != -1" class="orange white-text card-action center">
+              <div ng-show="project.status.indexOf('affiliated') != -1" class="white-text card-action center" ng-style="{'background-color': '#077E8B'}">
                 <span class="status-title">AFFILIATED</span>
                 <br>
               </div>
-              <div ng-show="project.status.indexOf('sponsored') != -1" class="green white-text card-action center">
+              <div ng-show="project.status.indexOf('sponsored') != -1" class="white-text card-action center" ng-style="{'background-color': '#077e8b'}">
                 <span class="status-title">SPONSORED</span>
                 <br>
               </div>
@@ -55,21 +42,21 @@ therefore adding an ignore comment -->
     <div class="modal-content">
       <div class="col m4 profile">
         <div class="name"> {{ currentProject.name }} </div>
-        <div ng-show="currentProject.tags.length>0">
-          <div class="small-heading uppercase">Tags</div> <span class="pr-element-detail chip" ng-repeat="tags in currentProject.tags">{{ tags }}</span>
-        </div>
         <div class="project-detail-elment">
           <div class="small-heading uppercase">Information</div>
-          <a ng-show="currentProject.organization_url" ng-href="{{ currentProject.organization_url }}"> <span class="pr-element-detail chip"> Homepage </span> </a>
-          <a ng-show="currentProject.contributing" ng-href="{{ currentProject.contributing }}"> <span class="pr-element-detail chip"> Contributing </span> </a>
-          <a ng-show="currentProject.ideaslist" ng-href="{{ currentProject.ideaslist }}"> <span class="pr-element-detail chip"> Ideas List </span> </a>
+          <a ng-show="currentProject.organization_url" ng-href="{{ currentProject.organization_url }}"> <span class="pr-element-detail chip white-text"  ng-style="{'background-color': '#077E8B'}"> Homepage </span> </a>
+          <a ng-show="currentProject.contributing" ng-href="{{ currentProject.contributing }}"> <span class="pr-element-detail chip white-text" ng-style="{'background-color': '#077E8B'}"> Contributing </span> </a>
+          <a ng-show="currentProject.ideaslist" ng-href="{{ currentProject.ideaslist }}"> <span class="pr-element-detail chip white-text" ng-style="{'background-color': '#077E8B'}"> Ideas List </span> </a>
         </div>
         <div class="project-detail-elment">
           <div class="small-heading uppercase">Contact</div>
-          <a ng-show="currentProject.gitter" ng-href="{{ currentProject.gitter }}"> <span class="pr-element-detail chip"> Gitter </span> </a>
-          <a ng-show="currentProject.slack" ng-href="{{ currentProject.slack }}"> <span class="pr-element-detail chip"> Slack </span> </a>
-          <a ng-show="currentProject.discourse" ng-href="{{ currentProject.discourse }}"> <span class="pr-element-detail chip"> Discourse </span> </a>
-          <a ng-show="currentProject.email" ng-href="{{ currentProject.email }}"> <span class="pr-element-detail chip"> Email </span> </a>
+          <a ng-show="currentProject.gitter" ng-href="{{ currentProject.gitter }}"> <span class="pr-element-detail chip white-text" ng-style="{'background-color': '#077E8B'}"> Gitter </span> </a>
+          <a ng-show="currentProject.slack" ng-href="{{ currentProject.slack }}"> <span class="pr-element-detail chip white-text" ng-style="{'background-color': '#077E8B'}"> Slack </span> </a>
+          <a ng-show="currentProject.discourse" ng-href="{{ currentProject.discourse }}"> <span class="pr-element-detail chip white-text" ng-style="{'background-color': '#077E8B'}"> Discourse </span> </a>
+          <a ng-show="currentProject.email" ng-href="{{ currentProject.email }}"> <span class="pr-element-detail chip white-text" ng-style="{'background-color': '#077E8B'}"> Email </span> </a>
+        </div>
+        <div ng-show="currentProject.tags.length>0">
+          <div class="small-heading uppercase">Tags</div> <span class="pr-element-detail chip white-text" ng-repeat="tags in currentProject.tags" ng-style="{'background-color': '#077E8B'}">{{ tags }}</span>
         </div>
       </div>
       <div class="col m8 dashboard">
