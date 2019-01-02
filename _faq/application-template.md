@@ -1,11 +1,13 @@
 ---
 question: "Do you have an application template?"
 ---
+Each sub-orgs has there own requirements for an application. The template below is a good starting point.
+
 {% assign month = "now" | date: "%-m" | plus: 0 %}
 {% if month >= site.gsoc_switch_month %}
-# NumFOCUS {{ "now" | date: "%Y" | plus: 1 }} Application Template
+**NumFOCUS {{ "now" | date: "%Y" | plus: 1 }} Application Template**
 {% else %}
-# NumFOCUS {{ "now" | date: "%Y" }} Application Template
+**NumFOCUS {{ "now" | date: "%Y" }} Application Template**
 {% endif %}
 
 ```

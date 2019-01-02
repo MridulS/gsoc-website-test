@@ -1,12 +1,6 @@
 ---
 question: "What are my obligations as a mentor during the GSoC?"
 ---
-NumFOCUS has two mentors for every project:
-
-1.  **Primary mentor**: responsible for the administrative tasks of the project.
-2.  **Secondary mentor**: has little to no responsibility, but provides backup
-    and code review for aspects of the project which are relevant to their
-    expertise.
 
 We expect you to:
 

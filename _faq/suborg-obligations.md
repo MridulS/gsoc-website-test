@@ -38,3 +38,12 @@ The **sub-org admins** are responsible for
 - assign mentors and students to available slots
 - ensure evaluations for accepted projects are submitted on time
 - Try to have the whole community engage with the students in their project
+
+## Project Mentors
+
+NumFOCUS has two mentors for every project:
+
+1.  **Primary mentor**: responsible for the administrative tasks of the project.
+2.  **Secondary mentor**: has little to no responsibility, but provides backup
+    and code review for aspects of the project which are relevant to their
+    expertise.

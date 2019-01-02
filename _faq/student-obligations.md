@@ -7,7 +7,7 @@ question: "What are my obligations as a student during the GSoC?"
 
 **Communication**
 
-- Write a short report for us every second week in a blog
+- Write a short report for us every evaluation period in a blog
 - Commit early and commit often! Push to a public repository (e.g. github) so
   that we can see and review your work.
 - Actively work on our project timeline and communicate with us during the
