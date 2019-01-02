@@ -6,6 +6,7 @@ ideaslist: "https://www.mdanalysis.org/ideas"
 logo_url: "https://www.mdanalysis.org/public/mdanalysis-logo_square.png"
 organization_url: "https://mdanalysis.org"
 email: "https://groups.google.com/forum/#!forum/mdnalysis-devel"
+contributing: "https://github.com/MDAnalysis/mdanalysis/wiki/Guide-for-Developers"
 status: "affiliated"
 tags:
   - Python
@@ -27,11 +28,3 @@ framework for complex analysis tasks. In addition, powerful atom selection
 commands are implemented. Trajectories can also be manipulated (for instance,
 fit to a reference structure) and written out. The basic example demonstrates
 some of these features.
-
-Read more:
-
-    installation quick start
-    learning MDAnalysis
-
-Also, check out the blog or subscribe to our news feed to follow development
-updates and events.

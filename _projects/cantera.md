@@ -7,6 +7,7 @@ logo_url: "https://i0.wp.com/numfocus.org/wp-content/uploads/2018/02/cantera-log
 contributing: https://github.com/Cantera/cantera/blob/master/CONTRIBUTING.md
 organization_url: https://cantera.org/
 status: "sponsored"
+gitter: "https://gitter.im/Cantera/Lobby"
 tags:
   - python
   - matlab
